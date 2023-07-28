@@ -1,0 +1,235 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background: rgb(77,191,254);
+	background: linear-gradient(168deg, rgba(77,191,254,1) 0%, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+	padding-top: 60px;
+	padding-bottom: 143px;
+	color: #fff;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+} 
+
+.offer {
+	width: 560px;
+}
+
+.title {
+	font-size: 37px;
+	margin-bottom: 38px;
+}
+
+.title span {
+	font-size: 59px;
+}
+
+.intro {
+	font-size: 16px;
+	font-weight: 400;
+	width: 396px;
+	margin-bottom: 63px;
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	background: #ffd429;
+	color: #000;
+	width: 222px;
+	padding: 21px 27px;
+	text-decoration: none;
+	font-weight: 900;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #eabc05;
+}
+
+.travel {
+	margin-top: 59px;
+}
+
+.future {
+	padding-top: 107px;
+	padding-bottom: 119px;
+}
+
+.section-title {
+	font-size: 30px;
+	text-align: center;
+}
+
+.advantages {
+	display: flex;
+	font-family: 'Ubuntu', sans-serif;
+	justify-content: space-between;
+}
+
+.advant {
+	width: 290px;
+	text-align: center;
+	margin-top: 70px;
+}
+
+.advant-one {
+	padding-top: 10px;
+}
+
+.advant-two {
+	padding-top: 2px;
+}
+
+.cart {
+	margin-bottom: 28px;
+}
+
+.advant-title{
+	font-size: 19px;
+	font-weight: 700;
+}
+
+.advant-text {
+	font-weight: 400;
+	font-size: 15px;
+	margin-top: 15px;
+}
+
+.text {
+	width: 97%;
+}
+
+.mail {
+	background: #ecf3f8;
+	padding-top: 100px;
+	padding-bottom: 102px;
+}
+
+.form {
+	padding-top: 56px;
+	width: 342px;
+	text-align: center;
+	margin: 0 auto; 
+}
+
+.input {
+	width: 342px;
+	border: 1px solid #bbbbbb;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	height: 46px;
+	padding-left: 23px;
+	margin-bottom: 15px;
+}
+
+.btn-form {
+	border: 0;
+	cursor: pointer;
+	width: 342px;
+}
+
+.footer {
+	padding-top: 62px;
+	padding-bottom: 66px;
+	background: #164d7a;
+}
+
+.credits {
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+}
+
+.animated {
+	opacity: 0;
+}
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.logo {
+		margin-bottom: 20px;
+	}
+	.wrapper {
+		display: block;
+	}
+	.offer {
+		width: 100%;
+	}
+	.intro {
+		width: 100%;
+	}
+	.travel {
+		display: block;
+		width: 500px;
+		margin: 59px auto 0;
+	}
+	.advant {
+		width: 200px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.advantages {
+		flex-direction: column;
+	}
+	.advant {
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+	.travel {
+		width: 270px;
+	}
+	.form {
+		width: 100%;
+	}
+	.input {
+		width: 100%;
+	}
+	.btn-form {
+		width: 100%;
+	}
+}
